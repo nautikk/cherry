@@ -10,7 +10,7 @@ GPIO.setmode(GPIO.BOARD)
 # Define the GPIO pin you want to use
 pin_fan = 11  # GPIO pin connected to the fan
 
-# Setup the fan pin as an output
+# Setup the fan pin as an outpu
 GPIO.setup(pin_fan, GPIO.OUT)
 
 @app.route('/turn_on')
